@@ -12,3 +12,7 @@ from aiogram.types import (ReplyKeyboardMarkup, KeyboardButton,
 main = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text='START!', callback_data='nachalo')],
     [InlineKeyboardButton(text='WRITE ME', callback_data='sviaz')]])
+
+btn_group = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text='Зарабатывай с нами!', callback_data='btn_1')]])
+    # [InlineKeyboardButton(text='WRITE ME', callback_data='sviaz')]])
